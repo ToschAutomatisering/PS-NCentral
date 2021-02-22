@@ -1,30 +1,30 @@
-﻿Type NCHelp or Get-NCHelp for the list of available PS-NCentral commands.
+Type NCHelp or Get-NCHelp for the list of available PS-NCentral commands.
 Use 'Get-Help <CommandName>' for additional help.
 
-Name                           Synopsis                                                                                  
-----                           --------                                                                                  
-Get-NCAccessGroupList          Returns the list of AccessGroups at the specified CustomerID level.                       
-Get-NCActiveIssuesList         Returns the Active Issues on the CustomerID-level and below.                              
+Name                           Synopsis
+----                           --------
+Get-NCAccessGroupList          Returns the list of AccessGroups at the specified CustomerID level.
+Get-NCActiveIssuesList         Returns the Active Issues on the CustomerID-level and below.
 Get-NCCustomerList             Returns a list of all customers and their data. ChildrenOnly when CustomerID is specified.
-Get-NCCustomerPropertyList     Returns a list of all Custom-Properties for the selected CustomerID(s).                   
-Get-NCDeviceID                 Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.        
-Get-NCDeviceInfo               Returns the General details for the DeviceID(s).                                          
-Get-NCDeviceList               Returns the Managed Devices for the given CustomerID(s) and Sites below.                  
-Get-NCDeviceLocal              Returns the DeviceID, CustomerID and some more Info for the Local Computer.               
-Get-NCDeviceObject             Returns a Device and all asset-properties as an object.                                   
-Get-NCDevicePropertyList       Returns the Custom Properties of the DeviceID(s).                                         
-Get-NCDevicePropertyListFilter Returns the Custom Properties of the Devices within the Filter(s).                        
-Get-NCDeviceStatus             Returns the Services for the DeviceID(s).                                                 
-Get-NCHelp                     Shows a list of available PS-NCentral commands and the synopsis.                          
-Get-NCJobStatusList            Returns the Scheduled Jobs on the CustomerID-level and below.                             
-Get-NCProbeList                Returns the Probes for the given CustomerID(s).                                           
-Get-NCServiceOrganizationList  Returns a list of all ServiceOrganizations and their data.                                
-Get-NCTimeOut                  Returns the max. time in seconds to wait for data returning from a (Synchronous) NCentr...
-Get-NCUserRoleList             Returns the list of Roles at the specified CustomerID level.                              
-NcConnected                    Checks or initiates the NCentral connection.                                              
-New-NCentralConnection         Connect to the NCentral server.                                                           
-Set-NCCustomerProperty         Fills the specified property(name) for the given CustomerID(s).                           
-Set-NCDeviceProperty           Fills the Custom Property for the DeviceID(s).                                            
-Set-NCTimeOut                  Sets the max. time in seconds to wait for data returning from a (Synchronous) NCentral ...
-
+Get-NCCustomerPropertyList     Returns a list of all Custom-Properties for the selected CustomerID(s).
+Get-NCDeviceID                 Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.
+Get-NCDeviceInfo               Returns the General details for the DeviceID(s).
+Get-NCDeviceList               Returns the Managed Devices for the given CustomerID(s) and Sites below.
+Get-NCDeviceLocal              Returns the DeviceID, CustomerID and some more Info for the Local Computer.
+Get-NCDeviceObject             Returns a Device and all asset-properties as an object.
+Get-NCDevicePropertyList       Returns the Custom Properties of the DeviceID(s).
+Get-NCDevicePropertyListFilter Returns the Custom Properties of the Devices within the FilterID(s).
+Get-NCDeviceStatus             Returns the Services for the DeviceID(s).
+Get-NCHelp                     Shows a list of available PS-NCentral commands and the synopsis.
+Get-NCJobStatusList            Returns the Scheduled Jobs on the CustomerID-level and below.
+Get-NCProbeList                Returns the Probes for the given CustomerID(s).
+Get-NCServiceOrganizationList  Returns a list of all ServiceOrganizations and their data.
+Get-NCTimeOut                  Returns the max. time in seconds to wait for data returning from a (Synchronous) NCentral API-request.
+Get-NCUserRoleList             Returns the list of Roles at the specified CustomerID level.
+Get-NCVersion                  Returns the N-Central Version(s) of the connected server.
+NcConnected                    Checks or initiates the NCentral connection.
+New-NCentralConnection         Connect to the NCentral server.
+Set-NCCustomerProperty         Fills the specified property(name) for the given CustomerID(s).
+Set-NCDeviceProperty           Fills the Custom Property for the DeviceID(s).
+Set-NCTimeOut                  Sets the max. time in seconds to wait for data returning from a (Synchronous) NCentral API-request.
 
