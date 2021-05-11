@@ -1,0 +1,36 @@
+﻿Methods included in the NCentral_Connection Class.
+
+Name                                    MemberType
+----                                    ----------
+AccessGroupGet                              Method
+AccessGroupList                             Method
+ActiveIssuesList                            Method
+Connect                                     Method
+CustomerAdd                                 Method
+CustomerList                                Method
+CustomerListChildren                        Method
+CustomerModify                              Method
+DeviceAssetInfoExportDevice                 Method
+DeviceAssetInfoExportDeviceWithSettings     Method
+DeviceGet                                   Method
+DeviceGetAppliance                          Method
+DeviceGetStatus                             Method
+DeviceList                                  Method
+DevicePropertyID                            Method
+DevicePropertyList                          Method
+DevicePropertyModify                        Method
+Equals                                      Method
+ErrorHandler                                Method
+GetHashCode                                 Method
+GetType                                     Method
+JobStatusList                               Method
+OrganizationPropertyID                      Method
+OrganizationPropertyList                    Method
+OrganizationPropertyModify                  Method
+ProcessData1                                Method
+ProcessData2                                Method
+ToString                                    Method
+UserRoleGet                                 Method
+UserRoleList                                Method
+
+
