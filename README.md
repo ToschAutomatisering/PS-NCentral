@@ -1,5 +1,5 @@
 # PS-NCentral
-## PowerShell integration for N-Central (c) by SolarWinds (R)
+## PowerShell integration for N-Central (c) by N-Able (R)
 
 Integrate NCentral into your management-scripts with this module.
 
