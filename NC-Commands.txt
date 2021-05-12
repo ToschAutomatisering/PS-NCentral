@@ -3,11 +3,13 @@ Use 'Get-Help <CommandName>' for additional help.
 
 Name                           Synopsis                                                                                        
 ----                           --------                                                                                        
+Add-NCCustomerPropertyValue    The Value is added to the comma-separated string of unique values in the Customer Property.     
 Add-NCDevicePropertyValue      The Value is added to the comma-separated string of unique values in the Custom Device Property.
 Get-NCAccessGroupList          Returns the list of AccessGroups at the specified CustomerID level.                             
 Get-NCActiveIssuesList         Returns the Active Issues on the CustomerID-level and below.                                    
 Get-NCCustomerList             Returns a list of all customers and their data. ChildrenOnly when CustomerID is specified.      
 Get-NCCustomerPropertyList     Returns a list of all Custom-Properties for the selected CustomerID(s).                         
+Get-NCCustomerPropertyValue    Retrieve the Value of the specified property(name) for the Customer(ID).                        
 Get-NCDeviceID                 Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.              
 Get-NCDeviceInfo               Returns the General details for the DeviceID(s).                                                
 Get-NCDeviceList               Returns the Managed Devices for the given CustomerID(s) and Sites below.                        
@@ -26,6 +28,7 @@ Get-NCUserRoleList             Returns the list of Roles at the specified Custom
 Get-NCVersion                  Returns the N-Central Version(s) of the connected server.                                       
 NcConnected                    Checks or initiates the NCentral connection.                                                    
 New-NCentralConnection         Connect to the NCentral server.                                                                 
+Remove-NCCustomerPropertyValue The Value is removed from the comma-separated string of unique values in the Customer Property. 
 Remove-NCDevicePropertyValue   The Value is removed from the comma-separated string of unique values in the Custom Device Pr...
 Set-NCCustomerDefault          Sets the DefaultCustomerID to be used.                                                          
 Set-NCCustomerProperty         Fills the specified property(name) for the given CustomerID(s).                                 

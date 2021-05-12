@@ -10,6 +10,7 @@ CustomerAdd                                 Method
 CustomerList                                Method
 CustomerListChildren                        Method
 CustomerModify                              Method
+CustomerPropertyValue                       Method
 DeviceAssetInfoExportDevice                 Method
 DeviceAssetInfoExportDeviceWithSettings     Method
 DeviceGet                                   Method
