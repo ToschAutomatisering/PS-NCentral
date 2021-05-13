@@ -5,19 +5,20 @@ Name                           Synopsis
 ----                           --------                                                                                        
 Add-NCCustomerPropertyValue    The Value is added to the comma-separated string of unique values in the Customer Property.     
 Add-NCDevicePropertyValue      The Value is added to the comma-separated string of unique values in the Custom Device Property.
+Convert-Base64                 Encode or Decode a string to or from Base64.                                                    
 Get-NCAccessGroupList          Returns the list of AccessGroups at the specified CustomerID level.                             
 Get-NCActiveIssuesList         Returns the Active Issues on the CustomerID-level and below.                                    
 Get-NCCustomerList             Returns a list of all customers and their data. ChildrenOnly when CustomerID is specified.      
+Get-NCCustomerProperty         Retrieve the Value of the specified property(name) for the Customer(ID).                        
 Get-NCCustomerPropertyList     Returns a list of all Custom-Properties for the selected CustomerID(s).                         
-Get-NCCustomerPropertyValue    Retrieve the Value of the specified property(name) for the Customer(ID).                        
 Get-NCDeviceID                 Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.              
 Get-NCDeviceInfo               Returns the General details for the DeviceID(s).                                                
 Get-NCDeviceList               Returns the Managed Devices for the given CustomerID(s) and Sites below.                        
 Get-NCDeviceLocal              Returns the DeviceID, CustomerID and some more Info for the Local Computer.                     
 Get-NCDeviceObject             Returns a Device and all asset-properties as an object.                                         
+Get-NCDeviceProperty           Returns the Value of the Custom Device Property.                                                
 Get-NCDevicePropertyList       Returns the Custom Properties of the DeviceID(s).                                               
 Get-NCDevicePropertyListFilter Returns the Custom Properties of the Devices within the FilterID(s).                            
-Get-NCDevicePropertyValue      Returns the Value of the Custom Device Property.                                                
 Get-NCDeviceStatus             Returns the Services for the DeviceID(s).                                                       
 Get-NCHelp                     Shows a list of available PS-NCentral commands and the synopsis.                                
 Get-NCJobStatusList            Returns the Scheduled Jobs on the CustomerID-level and below.                                   
