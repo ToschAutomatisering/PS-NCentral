@@ -5,6 +5,7 @@ Name                           Synopsis
 ----                           --------                                                                                        
 Add-NCCustomerPropertyValue    The Value is added to the comma-separated string of unique values in the Customer Property.     
 Add-NCDevicePropertyValue      The Value is added to the comma-separated string of unique values in the Custom Device Property.
+Backup-NCCustomProperties      Backup CustomProperties to a file. Customer or Device.                                          
 Convert-Base64                 Encode or Decode a string to or from Base64.                                                    
 Get-NCAccessGroupList          Returns the list of AccessGroups at the specified CustomerID level.                             
 Get-NCActiveIssuesList         Returns the Active Issues on the CustomerID-level and below.                                    
@@ -27,6 +28,7 @@ Get-NCServiceOrganizationList  Returns a list of all ServiceOrganizations and th
 Get-NCTimeOut                  Returns the max. time in seconds to wait for data returning from a (Synchronous) NCentral API...
 Get-NCUserRoleList             Returns the list of Roles at the specified CustomerID level.                                    
 Get-NCVersion                  Returns the N-Central Version(s) of the connected server.                                       
+IsEncodedBase64                ...                                                                                             
 NcConnected                    Checks or initiates the NCentral connection.                                                    
 New-NCentralConnection         Connect to the NCentral server.                                                                 
 Remove-NCCustomerPropertyValue The Value is removed from the comma-separated string of unique values in the Customer Property. 
