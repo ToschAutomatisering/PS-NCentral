@@ -20,17 +20,13 @@ DeviceList                                  Method
 DevicePropertyID                            Method
 DevicePropertyList                          Method
 DevicePropertyModify                        Method
-Equals                                      Method
 ErrorHandler                                Method
-GetHashCode                                 Method
-GetType                                     Method
 JobStatusList                               Method
 OrganizationPropertyID                      Method
 OrganizationPropertyList                    Method
 OrganizationPropertyModify                  Method
 ProcessData1                                Method
 ProcessData2                                Method
-ToString                                    Method
 UserRoleGet                                 Method
 UserRoleList                                Method
 
