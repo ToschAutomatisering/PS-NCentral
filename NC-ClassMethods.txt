@@ -6,6 +6,7 @@ AccessGroupGet                              Method
 AccessGroupList                             Method
 ActiveIssuesList                            Method
 Connect                                     Method
+ConvertBase64                               Method
 CustomerAdd                                 Method
 CustomerList                                Method
 CustomerListChildren                        Method
@@ -21,12 +22,12 @@ DevicePropertyID                            Method
 DevicePropertyList                          Method
 DevicePropertyModify                        Method
 ErrorHandler                                Method
+FixProperties                               Method
+IsEncodedBase64                             Method
 JobStatusList                               Method
 OrganizationPropertyID                      Method
 OrganizationPropertyList                    Method
 OrganizationPropertyModify                  Method
-ProcessData1                                Method
-ProcessData2                                Method
 UserRoleGet                                 Method
 UserRoleList                                Method
 

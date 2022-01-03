@@ -7,7 +7,7 @@ Add-NCCustomerPropertyValue The Value is added to the comma-separated string of 
 Add-NCDevicePropertyValue   The Value is added to the comma-separated string of unique values in the Custom Device Property.
 Backup-NCCustomProperties   Backup CustomProperties to a file. Customer or Device. WIP                                      
 Convert-Base64              Encode or Decode a string to or from Base64.                                                    
-FixProperties               Unifies the properties for all Objects in a list.                                               
+Format-Properties           Unifies the properties for all Objects in a list.                                               
 Get-NCAccessGroupDetails    Returns the details of the specified (CustomerAccess) GroupID.                                  
 Get-NCAccessGroupList       Returns the list of AccessGroups at the specified CustomerID level.                             
 Get-NCActiveIssuesList      Returns the Active Issues on the CustomerID-level and below.                                    
