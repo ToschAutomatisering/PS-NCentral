@@ -22,6 +22,7 @@ DevicePropertyID                            Method
 DevicePropertyList                          Method
 DevicePropertyModify                        Method
 ErrorHandler                                Method
+FixDates                                    Method
 FixProperties                               Method
 IsEncodedBase64                             Method
 JobStatusList                               Method
