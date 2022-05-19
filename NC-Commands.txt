@@ -41,3 +41,18 @@ Set-NCDeviceProperty        Set the value of the Custom Property for the DeviceI
 Set-NCTimeOut               Sets the max. time in seconds to wait for data returning from a (Synchronous) NCentral API-re...
 
 
+
+StatusCode Description   
+---------- -----------   
+         1 No Data       
+         2 Stale         
+         3 Normal        
+         4 Warning       
+         5 Failed        
+         6 Misconfigured 
+         7 Disconnected  
+         8 Disabled      
+        11 Unacknowledged
+        12 Acknowledged  
+
+
