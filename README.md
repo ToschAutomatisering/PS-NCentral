@@ -7,3 +7,6 @@ Type NCHelp or Get-NCHelp after loading the module to see all available commands
 
 This module is also available on PowerShellGallery:
 https://www.powershellgallery.com/packages/PS-NCentral
+
+Additional documentation can be found here:
+https://github.com/AngryProgrammerInside/NC-API-Documentation
