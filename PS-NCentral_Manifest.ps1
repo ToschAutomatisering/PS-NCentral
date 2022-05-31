@@ -1,4 +1,5 @@
 
+## Make sure only the .psm1 (v0.0) is imported
 $FunctionsToExport = (Get-Module PS-NCentral).ExportedCommands.Values.Name
 
 $Parms = @{
