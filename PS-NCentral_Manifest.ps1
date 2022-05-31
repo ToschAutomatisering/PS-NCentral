@@ -1,3 +1,4 @@
+## Script to generate the manifest (.psd1) for the module.
 
 ## Make sure only the .psm1 (v0.0) is imported
 $FunctionsToExport = (Get-Module PS-NCentral).ExportedCommands.Values.Name
