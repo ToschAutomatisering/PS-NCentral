@@ -29,6 +29,7 @@ JobStatusList                               Method
 OrganizationPropertyID                      Method
 OrganizationPropertyList                    Method
 OrganizationPropertyModify                  Method
+UserAdd                                     Method
 UserRoleGet                                 Method
 UserRoleList                                Method
 
