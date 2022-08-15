@@ -13,7 +13,7 @@ Get-NCAccessGroupList       Returns the list of AccessGroups at the specified Cu
 Get-NCActiveIssuesList      Returns the Active Issues on the CustomerID-level and below.                                    
 Get-NCCustomerList          Returns a list of all customers and their data. ChildrenOnly when CustomerID is specified.      
 Get-NCCustomerProperty      Retrieve the Value of the specified property(name) for the Customer(ID). Base64 optional.       
-Get-NCCustomerPropertyList  Returns a list of all Custom-Properties for the selected CustomerID(s).                         
+Get-NCCustomerPropertyList  Returns a list of all (Custom-)Properties for the selected CustomerID(s).                       
 Get-NCDeviceID              Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.              
 Get-NCDeviceInfo            Returns the General details for the DeviceID(s).                                                
 Get-NCDeviceList            Returns the Managed Devices for the given CustomerID(s) and Sites below.                        
