@@ -1,58 +1,56 @@
-﻿Type NCHelp or Get-NCHelp for the list of available PS-NCentral commands.
+Type NCHelp or Get-NCHelp for the list of available PS-NCentral commands.
 Use 'Get-Help <CommandName>' for additional help.
 
-Name                        Synopsis                                                                                        
-----                        --------                                                                                        
-Add-NCCustomerPropertyValue The Value is added to the comma-separated string of unique values in the Customer Property.     
+Name                        Synopsis
+----                        --------
+Add-NCCustomerPropertyValue The Value is added to the comma-separated string of unique values in the Customer Property.
 Add-NCDevicePropertyValue   The Value is added to the comma-separated string of unique values in the Custom Device Property.
-Backup-NCCustomProperties   Backup CustomProperties to a file. Customer or Device. WIP                                      
-Convert-Base64              Encode or Decode a string to or from Base64.                                                    
-Format-Properties           Unifies the properties for all Objects in a list.                                               
-Get-NCAccessGroupDetails    Returns the details of the specified (CustomerAccess) GroupID.                                  
-Get-NCAccessGroupList       Returns the list of AccessGroups at the specified CustomerID level.                             
-Get-NCActiveIssuesList      Returns the Active Issues on the CustomerID-level and below.                                    
-Get-NCCustomerList          Returns a list of all customers and their data. ChildrenOnly when CustomerID is specified.      
-Get-NCCustomerProperty      Retrieve the Value of the specified property(name) for the Customer(ID). Base64 optional.       
-Get-NCCustomerPropertyList  Returns a list of all (Custom-)Properties for the selected CustomerID(s).                       
-Get-NCDeviceID              Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.              
-Get-NCDeviceInfo            Returns the General details for the DeviceID(s).                                                
-Get-NCDeviceList            Returns the Managed Devices for the given CustomerID(s) and Sites below.                        
-Get-NCDeviceLocal           Returns the DeviceID, CustomerID and some more Info for the Local Computer.                     
-Get-NCDeviceObject          Returns a Device and the asset-properties as an object.                                         
-Get-NCDeviceProperty        Returns the Value of the Custom Device Property. Base64 optional.                               
-Get-NCDevicePropertyList    Returns the Custom Properties of the DeviceID(s).                                               
-Get-NCDevicePropertyList... Returns the Custom Properties of the Devices within the FilterID(s).                            
-Get-NCDeviceStatus          Returns the Services for the DeviceID(s).                                                       
-Get-NCHelp                  Shows a list of available PS-NCentral commands and the synopsis.                                
-Get-NCJobStatusList         Returns the Scheduled Jobs on the CustomerID-level and below.                                   
-Get-NCProbeList             Returns the Probes for the given CustomerID(s).                                                 
-Get-NCServiceOrganizatio... Returns a list of all ServiceOrganizations and their data.                                      
-Get-NCTimeOut               Returns the max. time in seconds to wait for data returning from a (Synchronous) NCentral API...
-Get-NCUserRoleDetails       Returns the Details of the specified RoleID.                                                    
-Get-NCUserRoleList          Returns the list of Roles at the specified CustomerID level.                                    
-Get-NCVersion               Returns the N-Central Version(s) of the connected server.                                       
-NcConnected                 Checks or initiates the NCentral connection.                                                    
-New-NCentralConnection      Connect to the NCentral server.                                                                 
-Remove-NCCustomerPropert... The Value is removed from the comma-separated string of unique values in the Customer Property. 
-Remove-NCDevicePropertyV... The Value is removed from the comma-separated string of unique values in the Custom Device Pr...
-Set-NCCustomerDefault       Sets the DefaultCustomerID to be used.                                                          
-Set-NCCustomerProperty      Fills the specified property(name) for the given CustomerID(s). Base64 optional.                
-Set-NCDeviceProperty        Set the value of the Custom Property for the DeviceID(s). Base64 optional.                      
-Set-NCTimeOut               Sets the max. time in seconds to wait for data returning from a (Synchronous) NCentral API-re...
+Backup-NCCustomProperties   Backup CustomProperties to a file. Customer or Device. WIP
+Convert-Base64              Encode or Decode a string to or from Base64.
+Format-Properties           Unifies the properties for all Objects in a list.
+Get-NCAccessGroupDetails    Returns the details of the specified (CustomerAccess) GroupID.
+Get-NCAccessGroupList       Returns the list of AccessGroups at the specified CustomerID level.
+Get-NCActiveIssuesList      Returns the Active Issues on the CustomerID-level and below.
+Get-NCCustomerList          Returns a list of all customers and their data. ChildrenOnly when CustomerID is specified.
+Get-NCCustomerProperty      Retrieve the Value of the specified property(name) for the Customer(ID). Base64 optional.
+Get-NCCustomerPropertyList  Returns a list of all (Custom-)Properties for the selected CustomerID(s).
+Get-NCDeviceID              Returns the DeviceID(s) for the given DeviceName(s). Case Sensitive, No Wildcards.
+Get-NCDeviceInfo            Returns the General details for the DeviceID(s).
+Get-NCDeviceList            Returns the Managed Devices for the given CustomerID(s) and Sites below.
+Get-NCDeviceLocal           Returns the DeviceID, CustomerID and some more Info for the Local Computer.
+Get-NCDeviceObject          Returns a Device and the asset-properties as an object.
+Get-NCDeviceProperty        Returns the Value of the Custom Device Property. Base64 optional.
+Get-NCDevicePropertyList    Returns the Custom Properties of the DeviceID(s).
+Get-NCDevicePropertyListFi… Returns the Custom Properties of the Devices within the FilterID(s).
+Get-NCDeviceStatus          Returns the Services for the DeviceID(s).
+Get-NCHelp                  Shows a list of available PS-NCentral commands and the synopsis.
+Get-NCJobStatusList         Returns the Scheduled Jobs on the CustomerID-level and below.
+Get-NCProbeList             Returns the Probes for the given CustomerID(s).
+Get-NCServiceOrganizationL… Returns a list of all ServiceOrganizations and their data.
+Get-NCTimeOut               Returns the max. time in seconds to wait for data returning from a (Synchronous) NCentral API-r…
+Get-NCUserRoleDetails       Returns the Details of the specified RoleID.
+Get-NCUserRoleList          Returns the list of Roles at the specified CustomerID level.
+Get-NCVersion               Returns the N-Central Version(s) of the connected server.
+NcConnected                 Checks or initiates the NCentral connection.
+New-NCentralConnection      Connect to the NCentral server.
+Remove-NCCustomerPropertyV… The Value is removed from the comma-separated string of unique values in the Customer Property.
+Remove-NCDevicePropertyVal… The Value is removed from the comma-separated string of unique values in the Custom Device Prop…
+Set-NCCustomerDefault       Sets the DefaultCustomerID to be used.
+Set-NCCustomerProperty      Fills the specified property(name) for the given CustomerID(s). Base64 optional.
+Set-NCDeviceProperty        Set the value of the Custom Property for the DeviceID(s). Base64 optional.
+Set-NCTimeOut               Sets the max. time in seconds to wait for data returning from a (Synchronous) NCentral API-requ…
 
 
-
-StatusCode Description   
----------- -----------   
-         1 No Data       
-         2 Stale         
-         3 Normal        
-         4 Warning       
-         5 Failed        
-         6 Misconfigured 
-         7 Disconnected  
-         8 Disabled      
+StatusCode Description
+---------- -----------
+         1 No Data
+         2 Stale
+         3 Normal
+         4 Warning
+         5 Failed
+         6 Misconfigured
+         7 Disconnected
+         8 Disabled
         11 Unacknowledged
-        12 Acknowledged  
-
+        12 Acknowledged
 
