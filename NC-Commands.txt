@@ -35,6 +35,8 @@ NcConnected                 Checks or initiates the NCentral connection.
 New-NCentralConnection      Connect to the NCentral server.
 Remove-NCCustomerPropertyV… The Value is removed from the comma-separated string of unique values in the Customer Property.
 Remove-NCDevicePropertyVal… The Value is removed from the comma-separated string of unique values in the Custom Device Prop…
+Select-NCCustomerUI         Returns a CustomerID from an interactive Selection-UI.
+Select-NCDeviceUI           Returns a DeviceID from an interactive Selection-UI for a given CustomerID.
 Set-NCCustomerDefault       Sets the DefaultCustomerID to be used.
 Set-NCCustomerProperty      Fills the specified property(name) for the given CustomerID(s). Base64 optional.
 Set-NCDeviceProperty        Set the value of the Custom Property for the DeviceID(s). Base64 optional.
